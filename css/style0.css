@@ -1,0 +1,130 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5dc; /* Light beige background */
+  color: #333; /* Dark grey text for readability */
+  margin: 0;
+  padding: 0;
+  font-size: 2.3vmin;
+}
+
+.container {
+  width: 90vw;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+h1 {
+  text-align: center;
+  font-size: 5vmin;
+  color: #6b8e23; /* Olive green for main title */
+}
+
+/* Yard section styles */
+.yard {
+  background-color: #faf0e6; /* Linen color background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+h2, h5 {
+  color: #556b2f; /* Dark olive green */
+}
+
+h3, h4, {
+  color: #8fbc8f; /* Dark pastel green */
+}
+
+h4 {
+  font-size: 2.9vmin;
+}
+
+h5 {
+  font-size: 2.7vmin;
+}
+
+/* List styles */
+ul, ol {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Proposed section styles */
+.proposed {
+  background-color: #fffaf0; /* Floral white background for proposed options */
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.trees, .bushes, .flowers {
+  margin-bottom: 20px;
+}
+
+.plant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  border: 3px solid #8fbc8f;
+  border-radius: 5px;
+  margin: 3vmin;
+  padding: 5vmin;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, .2);
+}
+
+img {
+  width: 90%;
+  height: auto;
+  margin: 0 auto 3vmin auto;
+  border-radius: 4px;
+  
+}
+
+/* Colors for different categories */
+.current {
+  background-color: #e0ffff; /* Light cyan for current options */
+  padding: 2vmin;
+  border-radius: 8px;
+  margin-bottom: 3vmin;
+}
+
+.trees, .bushes , .flowers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.trees h4, .bushes h4, .flowers h4 {
+  background-color: #ffd700; /* Gold for sub-sections */
+  padding: 5px 10px;
+  width: 80%;
+  text-align: center;
+  border-radius: 4px;
+  color: #fff;
+}
+
+/* Benefits and aesthetics lists */
+ul li {
+  color: #556b2f; /* Dark olive green */
+}
+
+ul li:first-child {
+  font-weight: bold;
+}
+
+ul li:nth-child(2) {
+  font-style: italic;
+}
+
+p {
+  line-height: 3vmin;
+  color: #555;
+}
